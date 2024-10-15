@@ -1,0 +1,98 @@
+:root {
+    --light-steel-blue: hsl(218, 33%, 77%);
+    --royal-blue-light: hsl(225, 68%, 53%);
+    --flickr-blue_30: hsla(225, 68%, 53%, 0.3);
+    --carolina-blue: hsl(201, 92%, 47%);
+    --oxford-blue-1: hsl(218, 70%, 18%);
+    --oxford-blue-2: hsl(217, 100%, 12%);
+    --oxford-blue-3: hsl(218, 71%, 11%);
+    --gainsboro_50: hsla(0, 0%, 85%, 0.5);
+    --lavender-web: hsl(225, 67%, 91%);
+    --sonic-silver: hsl(0, 0%, 47%);
+    --light-gray: hsl(0, 0%, 84%);
+    --cultured: hsl(0, 0%, 97%);
+    --black_10: hsla(0, 0%, 0%, 0.1);
+    --black_8: hsla(0, 0%, 0%, 0.08);
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+    --jet: hsl(0, 0%, 20%);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #6e90edc6;
+  margin: 0;
+  padding: 0;
+}
+
+.signup-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  margin: 20px 0px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+input[type="file"],
+textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: none;
+}
+
+.submit-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+.btn {
+  background: linear-gradient(
+    var(--deg, 90deg),
+    var(--carolina-blue) 0%,
+    var(--royal-blue-light) 100%
+  );
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px var(--flickr-blue_30);
+}
